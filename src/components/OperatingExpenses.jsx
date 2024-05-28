@@ -79,18 +79,9 @@ const colorPalette = ["#8884d8", "#82ca9d", "#ffc658", "#d0ed57", "#a4de6c", "#8
 export const OperatingExpensesChart = ({ data = [] }) => {
   const getMonthlyData = (data) => {
       const months = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
+        "Jan", "Feb", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+
       ];
 
     const monthlyData = months.map((month) => {

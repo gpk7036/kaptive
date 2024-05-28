@@ -37,24 +37,14 @@ const AssetGroups = [
   ["Equipment", "A/D - Equipment", "Other Fixed Assets", "A/D - Other Fixed Assets", "Intangible Assets", "A/D - Intangible Assets"]
 ];
 
-const AssetGroupLabels = ["Group 1", "Group 2", "Group 3"];
+// const AssetGroupLabels = ["Group 1", "Group 2", "Group 3"];
 const colorPalette = ["#8884d8", "#82ca9d", "#ffc658", "#d0ed57", "#a4de6c", "#8dd1e1"];
 
 export const Assets = ({ data = [] }) => {
   const getMonthlyData = (data) => {
     const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
+      "Jan", "Feb", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
     ];
 
     const monthlyData = months.map((month) => {

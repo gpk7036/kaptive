@@ -18,18 +18,8 @@ const CashFlowCharts = ({ data = [] }) => {
 
   const getMonthlyData = (data) => {
     const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
+      "Jan", "Feb", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
     ];
 
     const monthlyData = months.map((month) => {
