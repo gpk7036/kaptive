@@ -231,7 +231,6 @@ function NavItem({ icon, children, path, isActive, onClick, ...rest }) {
         )}
         {children}
       </Flex>
-      {/* )} */}
     </Link>
   );
 }
@@ -258,7 +257,6 @@ function MobileNav({ onOpen, ...rest }) {
         aria-label="open menu"
         icon={<FiMenu />}
       />
-
       <Text fontSize="2xl" ml="8" fontFamily="monospace" fontWeight="bold">
         Dashboard
       </Text>
