@@ -43,8 +43,18 @@ const colorPalette = ["#8884d8", "#82ca9d", "#ffc658", "#d0ed57", "#a4de6c", "#8
 export const Assets = ({ data = [] }) => {
   const getMonthlyData = (data) => {
     const months = [
-      "Jan", "Feb", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
     ];
 
     const monthlyData = months.map((month) => {
